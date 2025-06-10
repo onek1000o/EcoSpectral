@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4df429db-6fdc-4f05-a8dc-04e9f38cffbb" name="Changes" comment="Versión: 0.7.6&#10;&#10;- Implementación de la CNN y modelos, estos construidos para detectar vegetación y deforestación" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2wH6ATX7YFQKefHvECFTGdhzgcu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Prueba.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ccnnm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cdnpy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cdsp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cnnm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.colab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/carlos-amaranto/Escritorio/Workspace/project.ecospectral.edu.udc/src/database/cnnm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;/home/carlos-amaranto/Escritorio/Workspace/project.ecospectral.edu.udc/src/main.py&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/database/cnnm" />
+      <recent name="$PROJECT_DIR$/src/database/img" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/database" />
+      <recent name="$PROJECT_DIR$/src/database/dataset" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="colab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project.ecospectral.edu.udc" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/colab.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.colab" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4df429db-6fdc-4f05-a8dc-04e9f38cffbb" name="Changes" comment="" />
+      <created>1745686009845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745686009845</updated>
+      <workItem from="1745686010840" duration="11102000" />
+      <workItem from="1745714424528" duration="614000" />
+      <workItem from="1745716653982" duration="8254000" />
+      <workItem from="1745725210475" duration="2176000" />
+      <workItem from="1745770067974" duration="3061000" />
+      <workItem from="1745798682496" duration="321000" />
+      <workItem from="1745855832746" duration="3975000" />
+      <workItem from="1745884140409" duration="10916000" />
+      <workItem from="1746018208722" duration="9651000" />
+      <workItem from="1746156171055" duration="2946000" />
+      <workItem from="1746215388712" duration="22000" />
+      <workItem from="1746305488745" duration="555000" />
+      <workItem from="1746306356757" duration="9517000" />
+      <workItem from="1746405906015" duration="3138000" />
+      <workItem from="1746455089962" duration="8035000" />
+      <workItem from="1746550560947" duration="5890000" />
+      <workItem from="1746571264635" duration="1313000" />
+      <workItem from="1746583064269" duration="214000" />
+      <workItem from="1746626030590" duration="10215000" />
+      <workItem from="1746662994561" duration="916000" />
+      <workItem from="1746667582546" duration="3515000" />
+      <workItem from="1746714411499" duration="260000" />
+      <workItem from="1746762155283" duration="66000" />
+      <workItem from="1746838182173" duration="4512000" />
+      <workItem from="1746843408402" duration="1119000" />
+      <workItem from="1746844640709" duration="643000" />
+      <workItem from="1746845565110" duration="8072000" />
+      <workItem from="1746893646794" duration="12339000" />
+      <workItem from="1746915989134" duration="8031000" />
+      <workItem from="1747059848716" duration="4504000" />
+      <workItem from="1747096094247" duration="5287000" />
+      <workItem from="1747148302576" duration="9000" />
+      <workItem from="1747162652972" duration="2855000" />
+      <workItem from="1747240003155" duration="990000" />
+      <workItem from="1747273142541" duration="8377000" />
+      <workItem from="1747319180004" duration="6692000" />
+      <workItem from="1747681154165" duration="4420000" />
+    </task>
+    <task id="LOCAL-00001" summary="Versión: 0.6.5&#10;- CLI&#10;- Distancia Euclideana&#10;- Correlación">
+      <option name="closed" value="true" />
+      <created>1745798894758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745798894758</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Versión: 0.6.5&#10;- Comentarios de Funcionalidad y Variables.">
+      <option name="closed" value="true" />
+      <created>1745859329248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745859329248</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Versión: 0.7.0 &#10;- Integración de la CNN Adaptable [No probado]&#10;- Integración de las visualizaciones de SIG">
+      <option name="closed" value="true" />
+      <created>1746320081858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746320081858</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Versión: 0.7.3&#10;&#10;- Ajuste en procesos de CRUD CNN, compatible con CPU/GPU [No probada]">
+      <option name="closed" value="true" />
+      <created>1746854729518</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746854729518</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Versión: 0.7.6&#10;&#10;- Implementación de la CNN y modelos, estos construidos para detectar vegetación y deforestación">
+      <option name="closed" value="true" />
+      <created>1747684711607</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747684711608</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Versión: 0.7.6&#10;&#10;- Implementación de la CNN y modelos, estos construidos para detectar vegetación y deforestación">
+      <option name="closed" value="true" />
+      <created>1747685545278</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747685545278</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Versión: 0.7.6&#10;&#10;- Implementación de la CNN y modelos, estos construidos para detectar vegetación y deforestación">
+      <option name="closed" value="true" />
+      <created>1747685554709</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747685554709</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Versión: 0.6.5&#10;- CLI&#10;- Distancia Euclideana&#10;- Correlación" />
+    <MESSAGE value="Versión: 0.6.5&#10;- Comentarios de Funcionalidad y Variables." />
+    <MESSAGE value="Versión: 0.7.0 &#10;- Integración de la CNN Adaptable [No probado]&#10;- Integración de las visualizaciones de SIG" />
+    <MESSAGE value="Versión: 0.7.0&#10;- Integración de la CNN adaptable para CPU/GPU [No probado]" />
+    <MESSAGE value="Versión: 0.7.0&#10;- Integración de la CNN adaptable para CPU/GPU [No probado]" />
+    <MESSAGE value="Versión: 0.7.3&#10;&#10;- Ajuste en procesos de CRUD CNN, compatible con CPU/GPU [No probada]" />
+    <MESSAGE value="Versión: 0.7.6&#10;&#10;- Implementación de la CNN y modelos, estos construidos para detectar vegetación y deforestación" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versión: 0.7.6&#10;&#10;- Implementación de la CNN y modelos, estos construidos para detectar vegetación y deforestación" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project_ecospectral_edu_udc$cnnm.coverage" NAME="cnnm Coverage Results" MODIFIED="1746846380018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/project_ecospectral_edu_udc$main.coverage" NAME="main Coverage Results" MODIFIED="1747683807850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/project_ecospectral_edu_udc$cdsp.coverage" NAME="cdsp Coverage Results" MODIFIED="1745726570180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/project_ecospectral_edu_udc$ccnnm.coverage" NAME="ccnnm Coverage Results" MODIFIED="1746025848173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/project_ecospectral_edu_udc$colab.coverage" NAME="colab Coverage Results" MODIFIED="1747162717095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/project_ecospectral_edu_udc$cdnpy.coverage" NAME="cdnpy Coverage Results" MODIFIED="1745894250752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/project_ecospectral_edu_udc$Prueba.coverage" NAME="Prueba Coverage Results" MODIFIED="1747163538564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
+</project>
