@@ -1,6 +1,6 @@
 print("\n===== ANÁLISIS DE IMÁGENES HIPERESPECTRALES =====")
 print("Versión: 2.1 - Optimizada para análisis multiespectral")
-print("Desarrollado por: EcoSpectral UDC")
+print("Desarrollado por: Carlos Javier Amaranto Mercado y Juan Camilo Narvaez Torres")
 
 EcoSpectral/
 │
