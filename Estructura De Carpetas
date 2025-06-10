@@ -6,16 +6,16 @@ EcoSpectral/
 │
 ├── src/                      # Carpeta principal del código
 │   ├── main.py               # Paquete principal
-│   ├── cnnm                  # Punto de entrada de la aplicación
-│   ├── interfaz              # Código de la interfaz gráfica
-│   ├── database/                 # todo lo relacionado a la base de datos   
-│   │    ├── img    			 # Imágenes hiperespectrales(.hdr) 
+│   ├── cnnm                  
+│   ├── interfaz              # Código de la interfaz gráfica, Punto de entrada de la aplicación
+│   ├── database/             # todo lo relacionado a la base de datos   
+│   │    ├── img    			    # Imágenes hiperespectrales(.hdr) 
 │   │    ├── cnnm           
 │   │	   ├── fsp
 │   |    ├── pxl
 │   ├── Logo/                    
-│   │    ├── logo.png        # Logo de aplicativo
-│   ├── img_processed/       # Carpeta de guardado de resultado de imágenes procesadas       
+│   │    ├── logo.png         # Logo de aplicativo
+│   ├── img_processed/        # Carpeta de guardado de resultado de imágenes procesadas       
 │   │            
 ├── .vscode/    
 ├── .idea/                      
